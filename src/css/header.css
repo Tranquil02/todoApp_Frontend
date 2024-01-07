@@ -1,0 +1,40 @@
+.header {
+    background-color: black;
+    color: azure;
+    height: 3.5rem;
+    width: 100vw;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.components{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.components a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 11px;
+    margin-right: 45px;
+}
+.components a:active{
+    color: black;
+    background-color: aliceblue;
+}
+.components .btn-head{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 11px;
+    margin-right: 45px;
+}
+.components .btn-head{
+    color: black;
+    background-color: aliceblue;
+}
